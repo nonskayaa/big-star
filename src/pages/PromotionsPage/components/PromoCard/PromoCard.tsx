@@ -33,7 +33,7 @@ export default function PromoCard({ promotion }: { promotion: Promotion }) {
             /> */}
             <img
               src={promotion.image}
-              alt="promo image"
+              alt="promo"
               className={classes.promo_card__image}
             />
           </div>

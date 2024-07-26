@@ -13,7 +13,7 @@ export default function Portal({ children }: PortalProps) {
     return () => {
       document.body.removeChild(container);
     };
-  }, []);
+  }, [container]);
 
   return createPortal(children, container);
 }

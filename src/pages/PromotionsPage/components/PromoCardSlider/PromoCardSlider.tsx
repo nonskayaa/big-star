@@ -8,20 +8,11 @@ import PromoCard from "../PromoCard/PromoCard";
 import { observer } from "mobx-react-lite";
 import PromotionStore from "../../../../store/PromotionStore";
 import { useEffect, useState } from "react";
-import { fetchPromotions } from "../../../../http/promotionsAPI";
 
-import { Promotion } from "../../../../types/Promotion";
 import { mockPromotions } from "../../../../constants/mockPromotions";
 
 export default observer(function PromoCardSlider() {
   const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-  //   fetchPromotions().then((data: Promotion[]) => {
-  //     PromotionStore.setPromotions(data);
-  //     setLoading(false);
-  //   });
-  // }, []);
 
   useEffect(() => {
     PromotionStore.setPromotions(mockPromotions);

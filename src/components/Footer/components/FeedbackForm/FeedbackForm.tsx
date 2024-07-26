@@ -118,9 +118,9 @@ export default function FeedbackForm() {
 
                 <p className={classes.feedback_form__policy_text}>
                   Нажимая на кнопку «Отправить», я даю
-                  <a href="#"> согласие </a>на обработку моих персональных
+                  <a href="/"> согласие </a>на обработку моих персональных
                   данных в соответствии с
-                  <a href="#"> политикой обработки персональных данных. </a>
+                  <a href="/"> политикой обработки персональных данных. </a>
                 </p>
 
                 <button type="submit" className={classes.feedback_form__btn}>

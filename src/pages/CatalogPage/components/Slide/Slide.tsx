@@ -38,27 +38,6 @@ export default function Slide({ productInfo, isSlideActive }: SlideProps) {
     return <></>;
   }
 
-  const titleVars = {
-    open: {
-      scale: 1,
-      y: 0,
-      transition: {
-        type: "spring",
-        damping: 14,
-        delay: 0.2,
-      },
-    },
-    closed: {
-      scale: 0,
-      y: "20vh",
-      transition: {
-        type: "spring",
-        damping: 14,
-        delay: 0.2,
-      },
-    },
-  };
-
   const imgVars = {
     open: {
       rotate: -6,

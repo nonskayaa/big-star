@@ -4,9 +4,7 @@ import classNames from "classnames";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
-import { useState } from "react";
-
-import { postNewsletterForm } from "../../../../http/newsletterFormAPI";
+// import { postNewsletterForm } from "../../../../http/newsletterFormAPI";
 
 export default function NewsletterForm({
   setIsSuccessfullSubmitted,

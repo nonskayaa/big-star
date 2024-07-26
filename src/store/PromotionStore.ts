@@ -18,4 +18,5 @@ class PromotionStore {
   }
 }
 
-export default new PromotionStore();
+const promotionStore = new PromotionStore();
+export default promotionStore;
