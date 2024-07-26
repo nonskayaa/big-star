@@ -3,7 +3,6 @@ import classes from "./Footer.module.sass";
 
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/images/big-star-logo.png";
 import VkIcon from "../icons/VkIcon";
 import OkIcon from "../icons/OkIcon";
 import FeedbackFormModal from "./components/FeedbackFormModal/FeedbackFormModal";
