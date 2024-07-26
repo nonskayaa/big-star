@@ -1,7 +1,10 @@
 @import '../../assets/styles/colors'
+@import '../../assets/styles/borders'
+
 
 
 .footer__container
+  margin-top: 30px
   width: 100%
   height: 30vh
 
@@ -11,6 +14,9 @@
   justify-content: space-between
 
   padding:  0px 40px
+
+  background-color: $accent-purple
+  border-radius: $l-border
 
 .footer__info_container
   width: 65%
@@ -30,12 +36,13 @@
       margin-bottom: 10px  
 
       a
-        color: black
+        color: white
         text-decoration: none
 
 
 .footer__contacts
   width: 100%
+  color: white
 
   &_label
     font-weight: 600 
@@ -51,6 +58,7 @@
 
 .footer__social_media
   width: 100%
+  color: white
 
   &_list
     display: flex
@@ -74,21 +82,21 @@
 .feedback_btn
   padding: 5px 10px
 
-  background-color: $accent-purple
+  background-color: white
 
   font-weight: 600
 
-  color: white
+  color:  $accent-purple
 
-  border: 2px solid $accent-purple
+  border: 2px solid white
   border-radius: 30px 30px 30px 0px
 
   cursor: pointer
   text-transform: uppercase
 
   &:hover
-    background-color: white
-    color: $accent-purple
+    background-color: $accent-purple
+    color: white
 
     
 
@@ -102,3 +110,4 @@
 
   .footer__container
     height: 40vh
+    border-radius: $s-border

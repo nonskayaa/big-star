@@ -85,7 +85,6 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <img src={logo} className={classes.footer__logo} alt="" />
       </footer>
       <AnimatePresence>
         {isModalActive && (
